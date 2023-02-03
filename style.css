@@ -1,0 +1,44 @@
+/*class */
+.red {
+    color: red;
+
+}
+
+/*Box Model
+border=>*/
+
+.food-card {
+    border: 5px solid lightgrey;
+    border-radius: 18px;
+    width: 330px;
+    padding: 8px;
+    margin: 20px;
+
+}
+
+.food-card-name {
+    width: 100%;
+    border-radius: 18px;
+
+}
+
+/* flebox */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* css animation */
+.food-card:hover {
+    animation-name: card-animation;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes card-animation {
+
+    100% {
+        width: 400px;
+    }
+}
